@@ -31,7 +31,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
-YOUCAM_BASE = "https://s2s.perfectcorp.com/s2s/v2.0"
+YOUCAM_BASE = "https://yce-us.perfectcorp.com/s2s/v2.0"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY) if SUPABASE_URL and SUPABASE_KEY else None
 
